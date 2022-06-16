@@ -475,6 +475,7 @@ background-size: cover;
 
 /* texto encima */
 .overlay-text {
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     left: 0;
     top: 0;
@@ -484,16 +485,19 @@ background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(93, 102, 120, 0.9);
+    background-color: #2e2e2e87;
     display: none;
     cursor: pointer;
+
     /* text-align: center; */
 
 }
 
 .overlay-text h1,
 p {
-    color: #FFFFFF;
+
+    color: #fff;
+    font-weight: bold;
    
 }
 
@@ -507,9 +511,10 @@ p {
 }
 
 .overlay-text p {
-    font-size: 18px;
-    margin: 0px;
+    font-size: 15px;
+    margin-top: 5px;
     text-align: center;
+    font-style: italic;
 
 }
 
